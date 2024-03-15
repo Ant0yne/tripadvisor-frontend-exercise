@@ -1,0 +1,59 @@
+:root {
+	--light-grey: #f1f1f1;
+	--black: #000000;
+	--white: #ffffff;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: TS-Reg, sans-serif;
+}
+
+.container {
+	max-width: 1175px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	font-family: TS-med;
+	font-size: 5rem;
+	margin-bottom: 100px;
+	font-weight: bold;
+}
+
+button {
+	border: none;
+	background-color: white;
+	font-family: TS-Med, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-size: 1.6rem;
+}
+
+@media (min-width: 768px) {
+	body {
+		background-color: rgba(255, 0, 0, 0.096);
+	}
+}
+
+@media (min-width: 1024px) {
+	body {
+		background-color: rgba(0, 128, 0, 0.171);
+	}
+}
+
+@media (min-width: 1184px) {
+	body {
+		background-color: rgba(255, 255, 0, 0.137);
+	}
+}

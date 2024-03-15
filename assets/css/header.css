@@ -1,0 +1,99 @@
+header {
+	height: 60px;
+	width: 100%;
+	z-index: 1;
+	position: sticky;
+}
+
+header > .container {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	top: 0;
+	border-bottom: 1px solid var(--light-grey);
+}
+
+header img {
+	width: 132px;
+}
+
+header img:hover {
+	cursor: pointer;
+}
+
+#header-nav-button {
+	display: flex;
+	align-items: center;
+}
+
+header i {
+	font-size: 2.5rem;
+	padding: 0 10px;
+}
+
+#header-nav-button > div {
+	display: none;
+}
+
+#header-nav-button a {
+	border-radius: 25px;
+	padding: 5px 10px;
+	margin-left: 10px;
+}
+
+.header-button-hover:hover {
+	background-color: var(--light-grey);
+}
+
+#header-nav-button button {
+	display: none;
+}
+
+#header-nav-button p {
+	display: none;
+}
+
+/* -----------------MEDIA : 768px---------- */
+
+@media (min-width: 768px) {
+	#header-nav-button > a:first-of-type {
+		display: none;
+	}
+
+	header .container > nav:first-child {
+		display: none;
+	}
+
+	#header-nav-button > div {
+		display: inherit;
+	}
+
+	#header-nav-button button {
+		display: inherit;
+		background-color: var(--black);
+		color: var(--white);
+		font-size: 1.6rem;
+		padding: 12px 13px;
+		border-radius: 20px;
+		margin-left: 10px;
+	}
+
+	#header-nav-button button:hover {
+		cursor: pointer;
+	}
+}
+
+/* -----------------MEDIA : 1024px---------- */
+
+@media (min-width: 1024px) {
+	#header-nav-button a {
+		display: flex;
+		align-items: center;
+	}
+
+	#header-nav-button p {
+		display: inherit;
+		font-family: TS-Med, sans-serif;
+	}
+}
