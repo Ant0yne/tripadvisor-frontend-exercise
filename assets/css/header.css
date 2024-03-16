@@ -3,6 +3,7 @@ header {
 	width: 100%;
 	z-index: 1;
 	position: sticky;
+	border-bottom: 1px solid var(--light-grey);
 }
 
 header > .container {
@@ -11,7 +12,6 @@ header > .container {
 	justify-content: space-between;
 	align-items: center;
 	top: 0;
-	border-bottom: 1px solid var(--light-grey);
 }
 
 header img {

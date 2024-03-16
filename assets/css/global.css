@@ -2,6 +2,7 @@
 	--light-grey: #f1f1f1;
 	--black: #000000;
 	--white: #ffffff;
+	--saumon: #ff5d5d;
 }
 
 * {
@@ -13,6 +14,10 @@ html {
 	font-family: TS-Reg, sans-serif;
 }
 
+body {
+	background-color: var(--white);
+}
+
 .container {
 	max-width: 1175px;
 	margin: 0 auto;
@@ -21,8 +26,8 @@ html {
 
 h1 {
 	font-family: TS-med;
-	font-size: 5rem;
-	margin-bottom: 100px;
+	font-size: 3rem;
+	margin-bottom: 20px;
 	font-weight: bold;
 }
 
@@ -34,10 +39,15 @@ button {
 
 a {
 	text-decoration: none;
+	color: var(--black);
 }
 
 p {
 	font-size: 1.6rem;
+}
+
+i {
+	background-color: none;
 }
 
 @media (min-width: 768px) {

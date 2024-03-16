@@ -1,0 +1,17 @@
+#main-titre span {
+	color: var(--saumon);
+}
+
+#main-titre a {
+	text-decoration: underline;
+}
+
+#main-titre p {
+	margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+	#main-titre h1 {
+		font-size: 5.5rem;
+	}
+}

@@ -1,0 +1,42 @@
+#menu-explore p {
+	font-size: 1.7rem;
+	font-family: TS-Med, sans-serif;
+}
+
+#menu-explore i {
+	font-size: 2rem;
+}
+
+#menu-explore > nav {
+	display: flex;
+	overflow: hidden;
+	overflow-x: scroll;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+#menu-explore > nav::-webkit-scrollbar {
+	background-color: var(--white);
+}
+
+#menu-explore > nav::-webkit-scrollbar-thumb {
+	background-color: var(--light-grey);
+	border-radius: 10px;
+}
+
+#menu-explore a {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid var(--black);
+	border-radius: 10px;
+	flex-shrink: 0;
+	width: fit-content;
+	padding: 11px 16px 8px;
+	gap: 12px;
+}
+
+#menu-explore a:hover {
+	background-color: var(--black);
+	color: var(--white);
+}
