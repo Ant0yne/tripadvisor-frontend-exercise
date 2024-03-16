@@ -4,6 +4,7 @@
 	--white: #ffffff;
 	--saumon: #ff5d5d;
 	--green: #35e1a1;
+	--pale-pink: #faf1ed;
 }
 
 * {
@@ -90,20 +91,20 @@ i {
 	border-radius: 10px;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 	body {
 		background-color: rgba(255, 0, 0, 0.096);
 	}
-}
+} */
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
 	body {
 		background-color: rgba(0, 128, 0, 0.171);
 	}
-}
+} */
 
-@media (min-width: 1184px) {
+/* @media (min-width: 1184px) {
 	body {
 		background-color: rgba(255, 255, 0, 0.137);
 	}
-}
+} */
