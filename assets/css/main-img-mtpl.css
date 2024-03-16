@@ -1,0 +1,18 @@
+#img-mtpl nav {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	#img-mtpl nav {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#img-mtpl a {
+		padding: 0 5px;
+	}
+
+	#img-mtpl a:hover {
+		text-decoration: underline;
+	}
+}

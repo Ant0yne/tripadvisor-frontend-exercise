@@ -5,6 +5,7 @@
 
 #menu-explore i {
 	font-size: 2rem;
+	color: inherit;
 }
 
 #menu-explore > nav {
@@ -41,10 +42,6 @@
 	color: var(--white);
 }
 
-#menu-explore i {
-	color: inherit;
-}
-
 #menu-explore #menu-explore-more {
 	display: none;
 }
@@ -57,6 +54,10 @@
 
 	#menu-explore a {
 		width: calc((100% - 30px) / 4);
+	}
+
+	#menu-explore i {
+		font-size: 2.5rem;
 	}
 }
 
