@@ -31,10 +31,31 @@ h1 {
 	font-weight: bold;
 }
 
+h2 {
+	font-family: TS-med;
+	font-size: 2.5rem;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 2.5rem;
+	margin-bottom: 25px;
+	font-weight: bold;
+}
+
 button {
 	border: none;
 	background-color: white;
 	font-family: TS-Med, sans-serif;
+	background-color: var(--black);
+	color: var(--white);
+	font-size: 1.6rem;
+}
+
+button:hover {
+	cursor: pointer;
+	opacity: 0.8;
 }
 
 a {
@@ -44,6 +65,7 @@ a {
 
 p {
 	font-size: 1.6rem;
+	line-height: 22px;
 }
 
 i {

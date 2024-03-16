@@ -1,0 +1,28 @@
+#desc-orga-description p {
+	margin-bottom: 60px;
+}
+
+#desc-orga-organize {
+	border-radius: 20px;
+	overflow: hidden;
+	height: 425px;
+}
+
+#desc-orga-organize div:first-child {
+	background-color: var(--saumon);
+	padding: 30px;
+}
+
+#desc-orga-organize p {
+	margin-bottom: 25px;
+}
+
+#desc-orga-organize img {
+	width: 100%;
+	object-fit: cover;
+}
+
+#desc-orga-organize button {
+	padding: 18px 13px;
+	border-radius: 10px;
+}
