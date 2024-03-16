@@ -1,0 +1,113 @@
+#immanquables > div {
+	margin-bottom: 70px;
+}
+
+#immanquables-text {
+	margin-bottom: 20px;
+	margin-bottom: 40px;
+}
+
+#immanquables-text p {
+	margin-bottom: 20px;
+	font-size: 1.8rem;
+}
+
+#immanquables-text a {
+	font-size: 1.6rem;
+	text-decoration: underline;
+}
+
+#immanquables-carousel {
+	display: flex;
+	overflow: hidden;
+	overflow-x: scroll;
+	gap: 15px;
+}
+
+#immanquables-carousel > a {
+	width: calc((100% - 30px) / 1.5);
+	flex-shrink: 0;
+}
+
+#immanquables-carousel > a:hover {
+	opacity: 0.8;
+}
+
+.immanquables-img {
+	position: relative;
+}
+
+.immanquables-img > img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.immanquables-img .icon-heart {
+	position: absolute;
+	font-size: 3rem;
+	background-color: var(--white);
+	right: 20px;
+	top: 20px;
+	border-radius: 50%;
+	padding: 5px 4px 2px 4px;
+}
+
+.immanquables-img .icon-heart:hover {
+	background-color: var(--light-grey);
+}
+
+.immanquables-img .icon-travelers_choice_badge {
+	position: absolute;
+	font-size: 3.5rem;
+	background-color: var(--green);
+	left: 10px;
+	bottom: 8px;
+	border-radius: 50% 50% 0 0;
+	padding: 2px 1px 0 1px;
+}
+
+.immanquables-rating {
+	display: flex;
+	align-items: center;
+}
+
+.immanquables-rating > i {
+	font-size: 1.5rem;
+	color: var(--green);
+}
+.immanquables-rating > p {
+	margin-left: 10px;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	#immanquables > div {
+		display: flex;
+		gap: 30px;
+	}
+
+	#immanquables-text {
+		flex: 1;
+	}
+
+	#immanquables-carousel {
+		flex: 3;
+	}
+
+	#immanquables-carousel > a {
+		width: calc((100% - 45px) / 2.5);
+	}
+}
+
+@media (min-width: 1024px) {
+	#immanquables-carousel > a {
+		width: calc((100% - 60px) / 3.25);
+	}
+}
+
+@media (min-width: 1184px) {
+	#immanquables-carousel > a {
+		width: calc((100% - 45px) / 3);
+	}
+}

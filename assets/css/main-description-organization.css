@@ -1,3 +1,7 @@
+#description-organization > div {
+	margin-bottom: 70px;
+}
+
 #desc-orga-description p {
 	margin-bottom: 60px;
 }
@@ -53,7 +57,7 @@
 	}
 
 	#desc-orga-description {
-		flex: 1.5;
+		flex: 1.25;
 	}
 
 	#desc-orga-organize {

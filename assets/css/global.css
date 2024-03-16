@@ -3,6 +3,7 @@
 	--black: #000000;
 	--white: #ffffff;
 	--saumon: #ff5d5d;
+	--green: #35e1a1;
 }
 
 * {
@@ -42,6 +43,13 @@ h3 {
 	font-size: 2.5rem;
 	margin-bottom: 25px;
 	font-weight: bold;
+	line-height: 35px;
+}
+
+h4 {
+	font-size: 1.8rem;
+	margin-bottom: 5px;
+	font-weight: bold;
 }
 
 button {
@@ -71,6 +79,15 @@ p {
 i {
 	background-color: none;
 	color: var(--black);
+}
+
+::-webkit-scrollbar {
+	background-color: var(--white);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--light-grey);
+	border-radius: 10px;
 }
 
 @media (min-width: 768px) {

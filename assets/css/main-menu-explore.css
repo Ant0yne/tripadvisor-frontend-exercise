@@ -16,15 +16,6 @@
 	margin-bottom: 20px;
 }
 
-#menu-explore > nav::-webkit-scrollbar {
-	background-color: var(--white);
-}
-
-#menu-explore > nav::-webkit-scrollbar-thumb {
-	background-color: var(--light-grey);
-	border-radius: 10px;
-}
-
 #menu-explore a {
 	display: flex;
 	align-items: center;

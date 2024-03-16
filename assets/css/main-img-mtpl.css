@@ -82,9 +82,18 @@
 	}
 }
 
-/* -----------------MEDIA : 1184px---------- */
-@media (min-width: 1184px) {
+/* -----------------MEDIA : 1024px---------- */
+
+@media (min-width: 1024px) {
 	#img-mtpl-all-imgs {
 		height: 370px;
+	}
+}
+
+/* -----------------MEDIA : 1184px---------- */
+
+@media (min-width: 1184px) {
+	#img-mtpl-all-imgs {
+		height: 430px;
 	}
 }
