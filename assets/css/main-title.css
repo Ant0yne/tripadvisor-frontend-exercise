@@ -1,17 +1,17 @@
-#main-titre span {
+#main-title span {
 	color: var(--saumon);
 }
 
-#main-titre a {
+#main-title a {
 	text-decoration: underline;
 }
 
-#main-titre p {
+#main-title p {
 	margin-bottom: 30px;
 }
 
 @media (min-width: 768px) {
-	#main-titre h1 {
+	#main-title h1 {
 		font-size: 5.5rem;
 	}
 }

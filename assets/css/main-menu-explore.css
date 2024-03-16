@@ -40,3 +40,44 @@
 	background-color: var(--black);
 	color: var(--white);
 }
+
+#menu-explore i {
+	color: inherit;
+}
+
+#menu-explore #menu-explore-more {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	#menu-explore > nav {
+		flex-wrap: wrap;
+		overflow: inherit;
+	}
+
+	#menu-explore a {
+		width: calc((100% - 30px) / 4);
+	}
+}
+
+/* @media (min-width: 1024px) {
+} */
+
+@media (min-width: 1184px) {
+	#menu-explore #menu-explore-more {
+		display: inherit;
+	}
+
+	#menu-explore .menu-explore-extra {
+		display: none;
+	}
+
+	#menu-explore > nav {
+		flex-wrap: nowrap;
+		overflow: inherit;
+	}
+
+	#menu-explore a {
+		width: calc((100% - 70px) / 6);
+	}
+}
