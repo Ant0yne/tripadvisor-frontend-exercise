@@ -8,6 +8,7 @@
 
 #main-title p {
 	margin-bottom: 30px;
+	font-size: 1.4rem;
 }
 
 @media (min-width: 768px) {
