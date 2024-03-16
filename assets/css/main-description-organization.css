@@ -11,6 +11,9 @@
 #desc-orga-organize div:first-child {
 	background-color: var(--saumon);
 	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 #desc-orga-organize p {
@@ -19,10 +22,46 @@
 
 #desc-orga-organize img {
 	width: 100%;
+	height: 100%;
 	object-fit: cover;
 }
 
 #desc-orga-organize button {
 	padding: 18px 13px;
 	border-radius: 10px;
+	width: 150px;
 }
+
+@media (min-width: 768px) {
+	#desc-orga-description p {
+		font-size: 2rem;
+	}
+
+	#desc-orga-organize {
+		display: flex;
+
+		height: 300px;
+	}
+}
+
+@media (min-width: 1024px) {
+	#description-organization > div {
+		display: flex;
+		justify-content: space-between;
+		height: 500px;
+		gap: 130px;
+	}
+
+	#desc-orga-description {
+		flex: 1.5;
+	}
+
+	#desc-orga-organize {
+		flex: 1;
+		display: block;
+		height: 100%;
+	}
+}
+
+/* @media (min-width: 1184px) {
+} */
