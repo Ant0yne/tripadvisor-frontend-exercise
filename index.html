@@ -6,6 +6,8 @@
 		<title>TripAdvisor - Front exercise</title>
 		<link rel="stylesheet" href="./assets/css/style.css" />
 		<link rel="stylesheet" href="./assets/css/icons.css" />
+		<script src="./assets/js/script.js"></script>
+		<script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
 	</head>
 	<body>
 		<header>
@@ -52,6 +54,43 @@
 			</div>
 		</header>
 		<main>
+			<div id="black-screen"></div>
+			<!-- main-contact-form.css -->
+			<section id="contact-form">
+				<div class="form-container">
+					<div>
+						<i class="icon-times"></i>
+						<h2>Formulaire de contact</h2>
+						<form>
+							<input
+								type="text"
+								name="firstname"
+								id="contact-form-fn"
+								placeholder="Prénom"
+								value="" />
+							<input
+								type="text"
+								name="lastname"
+								id="contact-form-ln"
+								placeholder="Nom de Famille"
+								value="" />
+							<input
+								type="email"
+								name="email"
+								id="contact-form-e"
+								placeholder="Adresse email"
+								value="" />
+							<textarea
+								name="message"
+								id="contact-form-m"
+								cols="30"
+								rows="10"
+								placeholder="Votre message ici..."></textarea>
+							<button>Envoyer le formulaire</button>
+						</form>
+					</div>
+				</div>
+			</section>
 			<div class="container">
 				<!-- main-title.css -->
 				<section id="main-title">

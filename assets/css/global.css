@@ -1,9 +1,11 @@
 :root {
 	--light-grey: #f1f1f1;
+	--grey: #868686;
 	--black: #000000;
 	--white: #ffffff;
 	--saumon: #ff5d5d;
-	--green: #35e1a1;
+	--light-green: #35e1a1;
+	--green: #17b178;
 	--pale-pink: #faf1ed;
 }
 
@@ -64,10 +66,10 @@ button {
 
 button:hover {
 	cursor: pointer;
-	opacity: 0.8;
 }
 
-a {
+a,
+i {
 	text-decoration: none;
 	color: var(--black);
 }
@@ -77,9 +79,11 @@ p {
 	line-height: 22px;
 }
 
-i {
-	background-color: none;
-	color: var(--black);
+input,
+textarea {
+	font-family: TS-Reg, sans-serif;
+	font-size: 1.6rem;
+	line-height: 22px;
 }
 
 ::-webkit-scrollbar {

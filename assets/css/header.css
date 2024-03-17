@@ -76,6 +76,10 @@ header i {
 		border-radius: 20px;
 		margin-left: 10px;
 	}
+
+	#header-nav-button button:hover {
+		opacity: 0.8;
+	}
 }
 
 /* -----------------MEDIA : 1024px---------- */

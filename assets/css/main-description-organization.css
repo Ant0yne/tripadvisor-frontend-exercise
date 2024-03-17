@@ -36,6 +36,10 @@
 	width: 150px;
 }
 
+#desc-orga-organize button:hover {
+	opacity: 0.8;
+}
+
 @media (min-width: 768px) {
 	#desc-orga-description p {
 		font-size: 2rem;
