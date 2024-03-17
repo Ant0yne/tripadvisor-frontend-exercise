@@ -6,14 +6,13 @@ _This website is just an exercice and will not be deployed or use beside as a po
 
 ## Overview
 
+[Webpage link](https://main--tripadvisor-fronted-exercise.netlify.app/)
+
 This project is mobile first and responsive.
 
 All the external webpages linked to this exercice are not made by me but are actual TripAdvisor webpage.
-The buttons are not working for the moment.
+Only the "Contactez-nous" button work.
 
 ## To Do
 
-- Code a form popup that ask for personal information
-- Put the website online
-- Create a backend to receive the informations sent by the form
-- Send those informations to me by mail
+- Fix the backend side error when the form is sent
