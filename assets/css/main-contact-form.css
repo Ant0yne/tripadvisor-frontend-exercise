@@ -5,11 +5,9 @@
 	z-index: 3;
 	display: flex;
 	align-items: center;
-	visibility: hidden;
 }
 
 #black-screen {
-	visibility: hidden;
 	height: 100vh;
 	width: 120vw;
 	background-color: black;
@@ -17,6 +15,10 @@
 	position: fixed;
 	z-index: 2;
 	margin: -60px;
+}
+
+.hidden {
+	visibility: hidden;
 }
 
 .form-container {
