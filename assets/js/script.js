@@ -28,7 +28,10 @@ $.addEventListener("DOMContentLoaded", () => {
 		};
 
 		try {
-			const response = await axios.post("http://localhost:3000/form", data);
+			const response = await axios.post(
+				process.env.SERVEUR_ADDRESS + "/form",
+				data
+			);
 
 			console.log({
 				status: response.status,
