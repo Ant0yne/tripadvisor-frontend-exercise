@@ -20,6 +20,11 @@ $.addEventListener("DOMContentLoaded", () => {
 	form.addEventListener("submit", async (e) => {
 		e.preventDefault();
 
+		console.log($.getElementById("contact-form-fn").value);
+		console.log($.getElementById("contact-form-ln").value);
+		console.log($.getElementById("contact-form-e").value);
+		console.log($.getElementById("contact-form-m").value);
+
 		const data = {
 			firstname: $.getElementById("contact-form-fn").value,
 			lastname: $.getElementById("contact-form-ln").value,
@@ -29,7 +34,8 @@ $.addEventListener("DOMContentLoaded", () => {
 
 		try {
 			const response = await axios.post(
-				process.env.SERVEUR_ADDRESS + "/form",
+				"https://site--tripadvisor-backend-exercise--spyfkvx5gdbh.code.run/form",
+				// "http://localhost:3000/form",
 				data
 			);
 
@@ -39,8 +45,9 @@ $.addEventListener("DOMContentLoaded", () => {
 			});
 		} catch (error) {
 			console.error({
-				status: error.response.status,
-				message: error.response.data.message,
+				// status: error.response.status,
+				// message: error.response.data.message,
+				error,
 			});
 		}
 	});
