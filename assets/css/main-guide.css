@@ -38,11 +38,15 @@
 	font-weight: bold;
 }
 
+/* -----------------MEDIA : 768px---------- */
+
 @media (min-width: 768px) {
 	#guide a {
 		width: calc((100% - 60px) / 2.5);
 	}
 }
+
+/* -----------------MEDIA : 1024px---------- */
 
 @media (min-width: 1024px) {
 	#guide a {

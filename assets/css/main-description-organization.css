@@ -40,6 +40,8 @@
 	opacity: 0.8;
 }
 
+/* -----------------MEDIA : 768px---------- */
+
 @media (min-width: 768px) {
 	#desc-orga-description p {
 		font-size: 2rem;
@@ -51,6 +53,8 @@
 		height: 300px;
 	}
 }
+
+/* -----------------MEDIA : 1024px---------- */
 
 @media (min-width: 1024px) {
 	#description-organization > div {
@@ -70,6 +74,3 @@
 		height: 100%;
 	}
 }
-
-/* @media (min-width: 1184px) {
-} */

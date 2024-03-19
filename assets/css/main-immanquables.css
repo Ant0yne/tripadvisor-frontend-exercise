@@ -80,6 +80,8 @@
 	text-align: center;
 }
 
+/* -----------------MEDIA : 768px---------- */
+
 @media (min-width: 768px) {
 	#immanquables > div {
 		display: flex;
@@ -99,11 +101,15 @@
 	}
 }
 
+/* -----------------MEDIA : 1024px---------- */
+
 @media (min-width: 1024px) {
 	#immanquables-carousel > a {
 		width: calc((100% - 60px) / 3.25);
 	}
 }
+
+/* -----------------MEDIA : 1184px---------- */
 
 @media (min-width: 1184px) {
 	#immanquables-carousel > a {

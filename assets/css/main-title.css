@@ -11,6 +11,8 @@
 	font-size: 1.4rem;
 }
 
+/* -----------------MEDIA : 768px---------- */
+
 @media (min-width: 768px) {
 	#main-title h1 {
 		font-size: 5.5rem;

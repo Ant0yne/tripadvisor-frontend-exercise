@@ -37,6 +37,8 @@
 	display: none;
 }
 
+/* -----------------MEDIA : 768px---------- */
+
 @media (min-width: 768px) {
 	#menu-explore > nav {
 		flex-wrap: wrap;
@@ -52,8 +54,7 @@
 	}
 }
 
-/* @media (min-width: 1024px) {
-} */
+/* -----------------MEDIA : 1184px---------- */
 
 @media (min-width: 1184px) {
 	#menu-explore #menu-explore-more {
