@@ -6,7 +6,7 @@ _This website is just an exercice and will not be deployed or use beside as a po
 
 ## Overview
 
-[Webpage link](https://main--tripadvisor-fronted-exercise.netlify.app/)
+<a href="https://main--tripadvisor-fronted-exercise.netlify.app/" target="_blank">Website</a>
 
 This project is mobile first and responsive.
 
